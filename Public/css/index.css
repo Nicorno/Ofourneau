@@ -1,0 +1,215 @@
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+/* ============================ NAVIGATION ============================== */
+
+.navbar {
+    max-height: 4em;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+.dropdown-menu > .dropdown-menu.show {
+    position: absolute;
+    left: 100%;
+    margin-top: -1px;
+    top: 0 ;
+}
+
+.drop {
+    padding-top: 0.42rem;
+}
+
+/* ============================ END NAVIGATION ============================== */
+
+
+.banner-title {
+    padding-top: 3em;
+    padding-left: 2em;
+}
+
+
+.banner-img {
+    /* The image used */
+    background-image: url("../bannieres/italian-cuisine.png");
+    width: auto;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.main-content {
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 0, .2);
+}
+
+
+
+.connexion {
+  	list-style: none;
+  	margin-right: 15px;
+}
+
+
+.img-recipe {
+    max-width: 500px;
+    min-width: 400px;
+}
+
+
+.infos {
+    padding-left: 0;
+	  list-style: none;
+}
+
+
+.ingredients {
+	 margin-top: 35px;
+}
+
+
+.titre-preparation {
+	 margin-bottom: 25px;
+}
+
+.preparation {
+  	margin-top: 20px;
+  	margin-bottom: 25px;
+}
+
+
+hr {
+	 margin-bottom: 25px;
+}
+
+.titre-autres-categories {
+	 margin-bottom: 35px;
+}
+
+.media-body {
+	 margin-left: 25px;
+}
+
+.pagination {
+	 margin-bottom: 30px;
+}
+
+
+.categories {
+
+}
+
+footer {
+	 margin-top: 35px;
+}
+
+/* TITLES */
+
+h2 {
+	 color: rgb(230, 167, 5);
+}
+
+
+/* USER LOGIN */
+
+.user-login-form {
+    padding-bottom: 15px;
+}
+
+/* USER RECIPE EDIT */
+
+.edit-btn {
+    margin-bottom: 15px;
+}
+
+fieldset {
+    background-color: #ffffff;
+    margin: 0 auto 15px auto;
+    padding: 10px;
+    border: 2px solid #eeab69;
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    behavior: url(border-radius.htc);
+
+    background-image: -moz-linear-gradient(top, #ffffff, #f4f4f4);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f4f4f4));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff,endColorstr=#f4f4f4);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff,endColorstr=#f4f4f4)";
+}
+
+legend {
+    color: #eeab69;
+    margin-left: 15px;
+
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    padding: 0;
+}
+
+
+
+/* FONTS */
+
+@font-face {
+  	font-family: "logo";
+  	src: url('../fonts/Cuisine.ttf');
+}
+
+.logo {
+  	font-family: "logo", Helvetica, Arial, sans-serif;
+  	font-size: 30px;
+}
